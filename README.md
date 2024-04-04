@@ -14,70 +14,70 @@ local SpamSection = Tab:NewSection("Spam Skill Devil Fruit1")
 SpamSection:NewButton("Rumble", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Rumble.RemoteEvent:FireServer("RumblePower4","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Rumble.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Rumble)["VTCzyhf"],"RumblePower4","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Dark", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Dark.RemoteEvent:FireServer("DarkPower4","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Dark.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Dark)["VTCjebaj"],"DarkPower4","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Light", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Light.RemoteEvent:FireServer("LightPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Light.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Light)["VTCrv"],"LightPower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Magma", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower1","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Magma.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Magma)["VTCmel"],"MagmaPower1","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Flare", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Flare.RemoteEvent:FireServer("FlarePower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Flare.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Flare)["VTCmgwcm"],"FlarePower2","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Bomb", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Bomb.RemoteEvent:FireServer("BombPower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Bomb.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Bomb)["VTCcpkghc"],"BombPower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Gas", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Gas.RemoteEvent:FireServer("GasPower4","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Gas.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Gas)["VTCtb"],"GasPower4","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Phoenix", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Phoenix.RemoteEvent:FireServer("PhoenixPower3","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Phoenix.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Phoenix)["VTCytb"],"PhoenixPower3","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Chilly", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Chilly.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Chilly)["VTCewddsfe"],"ChillyPower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
 SpamSection:NewButton("Vampire", "ButtonInfo", function()
   while wait(0.1) do
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Vampire.RemoteEvent:FireServer("VampirePower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Vampire.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.ChiVampirelly)["VTCjwf"],"VampirePower5","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end
 end)
 
@@ -93,7 +93,7 @@ while wait() do
 if SpamTeleport then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Rumble.RemoteEvent:FireServer("RumblePower10","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Rumble.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Rumble)["VTCzyhf"],"RumblePower10","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -108,7 +108,7 @@ while wait() do
 if SpamTeleport1 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Dark.RemoteEvent:FireServer("DarkPower10","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Dark.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Dark)["VTCjebaj"],"DarkPower10","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -123,7 +123,7 @@ while wait() do
 if SpamTeleport2 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Light.RemoteEvent:FireServer("LightPower8","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Light.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Light)["VTCrv"],"LightPower8","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -138,7 +138,7 @@ while wait() do
 if SpamTeleport3 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Magma.RemoteEvent:FireServer("MagmaPower7","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Magma.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Magma)["VTCmel"],"MagmaPower7","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -153,7 +153,7 @@ while wait() do
 if SpamTeleport4 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Flare.RemoteEvent:FireServer("FlarePower8","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Flare.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Flare)["VTCmgwcm"],"FlarePower8","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -168,7 +168,7 @@ while wait() do
 if SpamTeleport5 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Bomb.RemoteEvent:FireServer("BombPower11","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Bomb.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Bomb)["VTCcpkghc"],"BombPower11","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -183,7 +183,7 @@ while wait() do
 if SpamTeleport6 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Gas.RemoteEvent:FireServer("GasPower10","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Gas.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Gas)["VTCtb"],"GasPower10","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -198,7 +198,7 @@ while wait() do
 if SpamTeleport7 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Phoenix.RemoteEvent:FireServer("PhoenixPower9","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Phoenix.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Phoenix)["VTCytb"],"PhoenixPower9","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -213,7 +213,7 @@ while wait() do
 if SpamTeleport8 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Chilly.RemoteEvent:FireServer("ChillyPower11","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Chilly.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Chilly)["VTCewddsfe"],"ChillyPower11","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end
 end
@@ -228,7 +228,7 @@ while wait() do
 if SpamTeleport9 then
 pcall(function()
 local plr = game:GetService("Players").LocalPlayer
-plr.Character.Powers.Vampire.RemoteEvent:FireServer("VampirePower11","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
+plr.Character.Powers.Vampire.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Vampire)["VTCjwf"],"VampirePower11","StopCharging",plr.Character.HumanoidRootPart.CFrame,workspace.IslandSnowyMountains.Stone.Stone,100)
 end)
 end  
 end
